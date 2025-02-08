@@ -1,0 +1,93 @@
+<!--
+
+    Form: Are Used to Collect the Data From User.
+
+-->
+<!-- 
+    Attributes of Form & Input
+    
+    1. Action: Where the Form Data Should be Sent
+        <form action="/actoin.php" </form>
+
+    2. Input: Used to Create Multiple Controls (20+ Types)
+        <input type="text" / type="Password" / type="Number" / type="time" / type="File" / type="Checkbox" / type="Range">
+        
+    3. Label: Represent Caption for Items (It create Connection b/w Label name & input ID)
+
+    4. Button Types: <button type="submit" / type="reset" / type="button">
+
+       we can also create button with the help of " input " but Good Practice it to create button with button Tag. 
+
+       <input type="button"> / <input type="submit">
+    
+    5. Input Attributes: type=" " / placeholder=" " / value=" " / name=" " 
+
+    6. Fieldset: Groups related form controls for better organization and accessibility.
+    7. Legend: Provides a caption for the fieldset, improving readability and accessibility.
+
+-->
+
+    <!-- * In Type="Radio" value of Name Must be same.  -->
+      <input type="radio" name='Fruit' id="mango">
+      <Label for="mango">Mango</label>
+
+      <input type="radio" name='Fruit' id="orange">
+      <Label for="orange">Orange</label> 
+      
+      <input type="radio" name='Fruit' id="Banana">
+      <Label for="Banana">Banana</label> 
+
+       <!-- Range  -->
+      <input type="range" min="0" max="100" step="10"> 
+
+      <!-- Text Area -->
+      <textarea rows="3" cols="15"></textarea>
+<hr>
+
+<Form>
+    <h1>Instagram</h1>
+
+    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+
+    <br>
+    <input type="password" name="password" id="password" placeholder="Password">
+
+    <br><br>
+    <input type="button" value="btn" width="100px" height="20px">
+</Form>
+
+<br><hr><br>
+
+<Form action="action.php">
+    <h1>Instagram</h1> 
+
+    <label for="Email"> Email: </label>
+    <input type="email" name="email" id="Email" placeholder="Enter Your Email">
+
+    <br>
+
+    <label for="Password"> Password: </label>
+    <input type="password" name="password" id="Password" placeholder="Password">
+
+    <br>
+    <button>Submit</button>
+    <!-- <input type="button" value="Submit" width="100px" height="20px"> -->
+</Form>
+
+<br><hr><br>
+
+<form action="https://www.youtube.com/results">
+    <input type="text" placeholder="Search on Youtube" name="search_query">
+    <button type="submit">Search</button>
+
+    <!-- After Click on Search actions URL will be changed to "https://www.youtube.com/results?search_query=searched_text" -->
+</form>
+
+
+<!-- FiledSet and Legend -->
+<fieldset>
+    <legend>Recommendations:</legend>
+    <label><input type="radio" name="recommend" value="yes" required> Yes</label>
+    <label><input type="radio" name="recommend" value="no"> No</label>
+    <label><input type="radio" name="recommend" value="maybe"> Maybe</label>
+</fieldset>

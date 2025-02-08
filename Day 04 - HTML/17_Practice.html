@@ -1,0 +1,62 @@
+<table border="black">
+    <caption>A Test Table with Merged Cells</caption>
+
+    <thead>
+        <tr>
+            <th rowspan="2" width="55px"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red Eyes</th>
+        </tr>
+
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Males</td>
+            <td>1.7</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+
+        <tr>
+            <td>Females</td>
+            <td>1.9</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </tbody>
+</table>
+
+<br><hr><br>
+
+<form action="/action.php">
+    <caption><h1>Registration Form</h1></caption>
+
+    <div>
+        <label for="f-name">Frist Name:</label>
+        <input type="text" id="f-name" placeholder="Enter Your Frist Name" name="f-name"><br>
+
+        <label for="l-name">Last Name:</label>
+        <input type="text" id="l-name" placeholder="Enter Your Last Name" name="l-name">
+    </div>
+
+    <div>
+        <label for="Gender">Select Yout Gender: </label>
+        <select name="Gender" id="Gender">
+            <option value="male" selected >Male</option>
+            <option value="female" >Female</option>
+        </select>        
+    </div>
+        Do You Agree all Terms & Considions?
+        <input type="checkbox" name="ckb" id="ckb" checked>
+        <label for="ckb">Yes i Agree.</label>
+    <div>
+
+    <button type="submit">Submit</button>
+
+    </div>
+</form>
