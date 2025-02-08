@@ -9,13 +9,13 @@ I have explored and practiced the following technologies:
 
 ### **Frontend Development**
 - ✅ HTML (Structure of Web Pages)  
-- ✅ CSS (Styling & Layouts)  
-- ✅ Bootstrap (Responsive Design & UI Components)  
-- ✅ JavaScript (Programming, DOM Manipulation, ES6+)  
+- 🔄 CSS (Styling & Layouts)  
+- 🔄 Bootstrap (Responsive Design & UI Components)  
+- 🔄 JavaScript (Programming, DOM Manipulation, ES6+)  
 
 ### **Backend Development**
-- ✅ Node.js (Server-Side JavaScript)  
-- ✅ Express.js (Building RESTful APIs)  
+- 🔄 Node.js (Server-Side JavaScript)  
+- 🔄 Express.js (Building RESTful APIs)  
 - 🔄 **Currently Learning:** MongoDB & React.js  <br></br>
 
 ---
