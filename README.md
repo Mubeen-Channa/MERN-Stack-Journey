@@ -24,7 +24,10 @@ I have explored and practiced the following technologies:
 Each folder represents a **learning day**, containing code, notes, and projects related to the topics covered on that day.  
 
 ### 🗂️ **Days Covered So Far**
-- [Day 01: Introduction to HTML](/Day-01) 
+- [Day 01: Introduction to HTML](/[Day-01](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/debf01d3a239b11fe307b95d0cc3fc6d5435b7d8/Day%2001%20-%20HTML))
+- [Day 02: HTML - Level 1](/[Day-02](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/debf01d3a239b11fe307b95d0cc3fc6d5435b7d8/Day%2002%20-%20HTML))
+- [Day 03: HTML - Level 2](/[Day-03](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/debf01d3a239b11fe307b95d0cc3fc6d5435b7d8/Day%2003%20-%20HTML))
+- [Day 04: HTML - Level 3](/[Day-04](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/debf01d3a239b11fe307b95d0cc3fc6d5435b7d8/Day%2004%20-%20HTML)) 
 - ...   
 - 🚀 *More days will be added as I learn*  <br></br>
 
