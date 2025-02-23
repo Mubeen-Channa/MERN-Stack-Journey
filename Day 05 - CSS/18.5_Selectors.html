@@ -1,0 +1,47 @@
+<!--
+    1. Selector: Select Indivisual or Group of elements to apply Styling.
+       
+    Types of Selectios:
+        1. Element              : div  / p
+        2. ID                   : #div / #p
+        3. Class                : .div / .p
+        4. Universal            : *
+        5. Multi Selector       : div, p
+        6. Desentent (Parent & Child) : div p ((select at all level) select p which is inside div      (not div just p))
+        7. Child Selector       : div > p     ((select at one level down) select p which is inside div (not div just p))
+        8. Combinator (Siblings but on same level) : div + p
+            
+            a) <div></div>
+               <p></p>
+
+            b) <div><p></p></div> 
+            
+            (It dont select this one because both are not on same level and siblings)
+        
+
+        Prority: ID > Class > Element
+        
+    
+    2. Property: Describes the aspect of the selected element(s) that you want to style. Examples include color, font-size, background-color, border, etc.
+
+    3. Value: Specifies the value for the property, defining how the selected element(s) should be styled. For example, red, 12px, #f0f0f0, 1px solid black.
+
+        Tag Selector:
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+        
+        Class Selector:
+        .p {
+            color: blue;
+            font-size: 16px;
+        }
+        
+        ID Selector:
+        #p {
+            color: blue;
+            font-size: 16px;
+        }
+
+-->
