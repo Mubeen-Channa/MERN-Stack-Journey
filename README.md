@@ -9,7 +9,7 @@ I have explored and practiced the following technologies:
 
 ### **Frontend Development**
 - ✅ HTML (Structure of Web Pages)  
-- 🔄 CSS (Styling & Layouts)  
+- ✅ CSS (Styling & Layouts)  
 - 🔄 Bootstrap (Responsive Design & UI Components)  
 - 🔄 JavaScript (Programming, DOM Manipulation, ES6+)  
 
@@ -27,7 +27,8 @@ Each folder represents a **learning day**, containing code, notes, and projects 
 - [Day 01: Introduction to HTML](/[Day-01](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/debf01d3a239b11fe307b95d0cc3fc6d5435b7d8/Day%2001%20-%20HTML))
 - [Day 02: HTML - Level 1](/[Day-02](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/debf01d3a239b11fe307b95d0cc3fc6d5435b7d8/Day%2002%20-%20HTML))
 - [Day 03: HTML - Level 2](/[Day-03](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/debf01d3a239b11fe307b95d0cc3fc6d5435b7d8/Day%2003%20-%20HTML))
-- [Day 04: HTML - Level 3](/[Day-04](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/debf01d3a239b11fe307b95d0cc3fc6d5435b7d8/Day%2004%20-%20HTML)) 
+- [Day 04: HTML - Level 3](/[Day-04](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/debf01d3a239b11fe307b95d0cc3fc6d5435b7d8/Day%2004%20-%20HTML))
+- [Day 05: CSS  - Level 1](/[Day-04](https://github.com/Mubeen-Channa/MERN-Stack-Journey/tree/c1c0eebbf734d55e6a46b227379959cdbc900727/Day%2005%20-%20CSS)) 
 - ...   
 - 🚀 *More days will be added as I learn*  <br></br>
 
