@@ -1,0 +1,65 @@
+<!-- 
+    Psedu Element: Specify Special State a part of Selected element 
+
+    1. ::first-letter    : Select 1st letter from a h1 Heading or Paragraph    
+    2. ::fiist-line      : Select 1st line from a h1 Heading or Paragraph
+    3. ::seletion        : When we select text from web it changes its css
+        p::selection{
+            background-color: yellow;
+        }
+
+    4. ::before: Used to insert content before the content of an element.
+        p::before {
+            content: "Before ";
+        }
+
+    5. ::after: Used to insert content after the content of an element.
+        p::after {
+            content: " After";
+        }
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p::before {
+            content: "Before ";
+            color: red;
+        }
+
+        p::after {
+            content: " After";
+            color: blue;
+        }
+
+
+        div{
+            position: relative;
+            width: 100px;
+            height: 50px;
+            background-color: black;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+        div::after{
+            content: '';
+            position: absolute;
+            border-radius: 50px;
+            width: 0px;
+            height: 100%;
+            background-color: red;
+            transition: all 0.4s ease;
+        }
+        div:hover::after{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello</p>
+    <br> <br> <br>
+    <div></div>
+</body>
+</html>

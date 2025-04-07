@@ -1,0 +1,27 @@
+<!-- 
+    It is an algorithm that calculate (score) the weight that is applied to given css.
+
+    There is 3 Places
+    _    _    _
+    ID Class  Element
+
+    ID is more importance then class & class has more importance then Element
+
+    h2{color: white}: Low Priroty
+    0    0       1
+    ID Class  Element
+    
+    .logo .name{color: blue}: more Priroty then above one so color is blue
+    0    2       0
+    ID Class  Element
+    
+*If priroty is same then it change according to cascading (Final Defined)
+
+*Inline CSS has more prority than Internal & External CSS 
+
+
+!important have more priroty than all (it is like as static which is cant changable)
+
+ syntax=  color: blue !important;
+
+ -->
