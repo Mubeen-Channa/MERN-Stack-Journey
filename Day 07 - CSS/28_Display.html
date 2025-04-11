@@ -1,0 +1,65 @@
+<!-- Display Element:
+
+     1. inline: This property covert block elements into inline.
+        * Margins will work horizontally, but not vertically.
+        * Padding works on all sides, but the top and bottom may overlap other elements.        
+
+     2. block:  This property convert inline elements into block(Aqupy all width).
+
+     3. inline-block: it is used to represent divs at same line without losing their css.
+
+
+-->
+
+<style>
+    .first-div{
+        background-color: black;
+        height: 60px;
+        width: 60px;
+        margin: 50px;
+    }
+    span{
+        background-color: black;
+        height: 60px;
+        width: 60px;
+        margin: 60px;
+        color: white;
+    }
+
+    /*  */
+    .two-1{
+        width: 60px;
+        height: 40px;
+        background-color: greenyellow;
+        margin: 20px;
+        display: inline; /* with this value 2 divs become gaib */
+    }
+    .two-2{
+        width: 60px;
+        height: 40px;
+        background-color: greenyellow;
+        margin: 20px;
+        display: inline-block; /* with this value 2 divs become on same line */
+    }
+</style>
+
+
+<body>
+    
+    <div class="first-div">    </div>
+
+    <span>
+        aklfldlskfjldjf    </span>
+
+    <hr>
+    <!-- inline on Divs  -->
+    <div class="two-1">    </div>
+
+    <div class="two-1">    </div>
+
+    <hr>
+    <!-- inline-block on Divs -->
+    <div class="two-2">    </div>
+
+    <div class="two-2">    </div>
+</body>

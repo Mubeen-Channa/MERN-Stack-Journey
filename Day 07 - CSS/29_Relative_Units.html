@@ -1,0 +1,42 @@
+<!-- 
+    -> Units
+       Absolute: Fixed (px, cm, mm, in)
+       Relative: Not Fixed (%, em, rem)
+       
+       * In Responsive Webs We Use Relative Units
+
+       i. Percentage %: It is used to define size of relative to parent`s object.
+
+       ii. em : Used to define font size relative to parent`s object, also define padding or marging relative to font size in same css block. 
+        
+        *em have a snowfall effect problem (rem remove snowfall problem)
+
+       iii. rem :  used to define font-size relative to root font-size.
+
+       iv. vh : (height: 100vh) div aqupy full height of screen. 
+ -->
+<style>
+    .outer{
+        width: 200px;
+        height: 200px;
+        background-color: burlywood;
+        font-size: 20px;
+    }
+
+    .inner{
+        width: 50px;        
+        height: 50%; /* Aqupy according to parent width*/
+        margin-left: 10%; /* Aqupy according to parent width*/
+        background-color: palegreen;
+        font-size: 2em; /* 2em means double to parent`s font-size (40px) */
+    }
+</style>
+
+
+<body>
+    <div class="outer"> Text
+        <div class="inner"> Text
+
+        </div>
+    </div>
+</body>
